@@ -1,0 +1,50 @@
+.carousel-item {
+    height: 32rem;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-left{
+    text-align: left;
+}
+
+
+.row {
+    padding: 30px;
+}
+
+.rounded-circle {
+    height: 140px;
+    width: 140px;
+    background-color: #bbb;
+    border-radius: 50%;
+}
+
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: 1px solid;
+    opacity: .25;
+}
+
+.featurette-divider {
+    margin: 5rem 0;
+}
+
+.featurette-heading {
+    font-weight: 400;
+}
+
+@media (max-width: 750px) {
+    .carousel-item {
+        height: 20rem;
+    }
+
+    .featurette {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
